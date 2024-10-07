@@ -62,7 +62,7 @@ function game() {
         console.log(`Score: You - ${userScore} | Computer - ${computerScore} | Ties - ${ties}`);
 
         let playAgainResponse = prompt("Play again? (y/n): ").toLowerCase();
-        playAgain = playAgainResponse === "y";
+        playAgain = playAgainResponse === "y" || playAgainResponse === "yes";
     }
 
     console.log("Thanks for playing!");
